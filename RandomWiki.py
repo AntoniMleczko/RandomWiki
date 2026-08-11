@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def main():
-    return {"IDK what to write here": "."}
+    return {"to get the link": "go to /link"}
 
 @app.get("/link")
 def link():
