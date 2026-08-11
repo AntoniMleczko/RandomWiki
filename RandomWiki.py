@@ -14,3 +14,4 @@ def link():
     wiki_link = f"https://wikipedia.org/wiki/{word}"
 
     return {"word": word, "link": wiki_link}
+
